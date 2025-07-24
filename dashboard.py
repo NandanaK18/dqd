@@ -311,7 +311,7 @@ title_col1, title_col2 = st.columns([1, 10])
 
 with title_col1:
     # UST Global company logo from local file
-    st.image(r"C:\Users\298846\Downloads\ust_logo.png", width=90)
+    st.image("ust_logo.png", width=90)
 
 with title_col2:
     st.markdown("""
